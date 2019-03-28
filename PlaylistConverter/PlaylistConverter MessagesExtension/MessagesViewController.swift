@@ -8,6 +8,8 @@
 
 import UIKit
 import Messages
+import Foundation
+
 
 class MessagesViewController: MSMessagesAppViewController {
     
@@ -17,7 +19,6 @@ class MessagesViewController: MSMessagesAppViewController {
     }
     
     // MARK: - Conversation Handling
-    
     override func willBecomeActive(with conversation: MSConversation) {
         // Called when the extension is about to move from the inactive to active state.
         // This will happen when the extension is about to present UI.
@@ -63,5 +64,6 @@ class MessagesViewController: MSMessagesAppViewController {
     
         // Use this method to finalize any behaviors associated with the change in presentation style.
     }
-
+    
+    
 }

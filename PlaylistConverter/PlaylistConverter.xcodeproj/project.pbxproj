@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43E028C0224C5DA700C086A5 /* AppleMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E028BF224C5DA700C086A5 /* AppleMusic.swift */; };
+		43E028C3224C658200C086A5 /* AppleKeys in Resources */ = {isa = PBXBuildFile; fileRef = 43E028C2224C658200C086A5 /* AppleKeys */; };
+		43E028C7224C695E00C086A5 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E028C6224C695E00C086A5 /* Package.swift */; };
+		43E028C9224C6EEE00C086A5 /* launchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E028C8224C6EEE00C086A5 /* launchScreen.storyboard */; };
+		43E028CB224C6F1100C086A5 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E028CA224C6F1100C086A5 /* Storyboard.storyboard */; };
 		8E1956CC223083FB008300D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1956CB223083FB008300D3 /* Assets.xcassets */; };
 		8E1956D3223083FB008300D3 /* PlaylistConverter MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8E1956D2223083FB008300D3 /* PlaylistConverter MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8E1956D8223083FB008300D3 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E1956D7223083FB008300D3 /* Messages.framework */; };
@@ -41,6 +46,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		43E028BF224C5DA700C086A5 /* AppleMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusic.swift; sourceTree = "<group>"; };
+		43E028C2224C658200C086A5 /* AppleKeys */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppleKeys; path = ../../../../../Desktop/AppleKeys; sourceTree = "<group>"; };
+		43E028C6224C695E00C086A5 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		43E028C8224C6EEE00C086A5 /* launchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = launchScreen.storyboard; sourceTree = "<group>"; };
+		43E028CA224C6F1100C086A5 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		8E1956C8223083F6008300D3 /* PlaylistConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E1956CB223083FB008300D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E1956CD223083FB008300D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,6 +99,7 @@
 		8E1956CA223083F6008300D3 /* PlaylistConverter */ = {
 			isa = PBXGroup;
 			children = (
+				43E028C2224C658200C086A5 /* AppleKeys */,
 				8E1956CB223083FB008300D3 /* Assets.xcassets */,
 				8E1956CD223083FB008300D3 /* Info.plist */,
 			);
@@ -109,7 +120,11 @@
 			children = (
 				8E1956EB2230869E008300D3 /* PlaylistConverter MessagesExtension.entitlements */,
 				8E1956DA223083FC008300D3 /* MessagesViewController.swift */,
+				43E028C6224C695E00C086A5 /* Package.swift */,
+				43E028BF224C5DA700C086A5 /* AppleMusic.swift */,
 				8E1956DC223083FC008300D3 /* MainInterface.storyboard */,
+				43E028C8224C6EEE00C086A5 /* launchScreen.storyboard */,
+				43E028CA224C6F1100C086A5 /* Storyboard.storyboard */,
 				8E1956DF223083FC008300D3 /* Assets.xcassets */,
 				8E1956E1223083FC008300D3 /* Info.plist */,
 			);
@@ -204,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E1956CC223083FB008300D3 /* Assets.xcassets in Resources */,
+				43E028C3224C658200C086A5 /* AppleKeys in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +228,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E1956E0223083FC008300D3 /* Assets.xcassets in Resources */,
+				43E028CB224C6F1100C086A5 /* Storyboard.storyboard in Resources */,
+				43E028C9224C6EEE00C086A5 /* launchScreen.storyboard in Resources */,
 				8E1956DE223083FC008300D3 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,6 +241,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43E028C7224C695E00C086A5 /* Package.swift in Sources */,
+				43E028C0224C5DA700C086A5 /* AppleMusic.swift in Sources */,
 				8E1956DB223083FC008300D3 /* MessagesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
