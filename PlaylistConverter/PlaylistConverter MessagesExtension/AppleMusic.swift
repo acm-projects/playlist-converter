@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import StoreKit
+import MediaPlayer
 
 class AppleMusic{
    /* let myHeader=Header(alg:"ES256",kid:"U7XN79MW5V")
@@ -22,8 +24,21 @@ class AppleMusic{
                 "kid":"U7XN79MW5V"
             ]
     ]
-    
+    */
     func requestUserToken(forDeveloperToke developedToken: String,
-                          completionHandler:@escaping(String?, Error?)->Void)*/
+                          completionHandler:@escaping(String?, Error?)->Void){
+        
+    }
+    
+    func test(){
+        // Instantiate a new music player
+        let myMediaPlayer = MPMusicPlayerApplicationController.applicationQueuePlayer
+        // Add a playback queue containing all songs on the device
+        myMediaPlayer.setQueue(with: MPMediaQuery.songs())
+        // Start playing from the beginning of the queue
+        myMediaPlayer.play()
+
+    }
+    
 }
 
