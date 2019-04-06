@@ -10,7 +10,6 @@
 		4312E78E22519B100012DF54 /* AuthKey_U7XN79MW5Y.p8 in Resources */ = {isa = PBXBuildFile; fileRef = 4312E78D22519B100012DF54 /* AuthKey_U7XN79MW5Y.p8 */; };
 		4312E78F22519B100012DF54 /* AuthKey_U7XN79MW5Y.p8 in Resources */ = {isa = PBXBuildFile; fileRef = 4312E78D22519B100012DF54 /* AuthKey_U7XN79MW5Y.p8 */; };
 		43E028C0224C5DA700C086A5 /* AppleMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E028BF224C5DA700C086A5 /* AppleMusic.swift */; };
-		43E028C3224C658200C086A5 /* AppleKeys in Resources */ = {isa = PBXBuildFile; fileRef = 43E028C2224C658200C086A5 /* AppleKeys */; };
 		43E028C7224C695E00C086A5 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E028C6224C695E00C086A5 /* Package.swift */; };
 		43E028C9224C6EEE00C086A5 /* launchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E028C8224C6EEE00C086A5 /* launchScreen.storyboard */; };
 		8E1956CC223083FB008300D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1956CB223083FB008300D3 /* Assets.xcassets */; };
@@ -49,7 +48,6 @@
 /* Begin PBXFileReference section */
 		4312E78D22519B100012DF54 /* AuthKey_U7XN79MW5Y.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_U7XN79MW5Y.p8; sourceTree = "<group>"; };
 		43E028BF224C5DA700C086A5 /* AppleMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusic.swift; sourceTree = "<group>"; };
-		43E028C2224C658200C086A5 /* AppleKeys */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AppleKeys; path = ../../../../../Desktop/AppleKeys; sourceTree = "<group>"; };
 		43E028C6224C695E00C086A5 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		43E028C8224C6EEE00C086A5 /* launchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = launchScreen.storyboard; sourceTree = "<group>"; };
 		8E1956C8223083F6008300D3 /* PlaylistConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,7 +98,6 @@
 		8E1956CA223083F6008300D3 /* PlaylistConverter */ = {
 			isa = PBXGroup;
 			children = (
-				43E028C2224C658200C086A5 /* AppleKeys */,
 				8E1956CB223083FB008300D3 /* Assets.xcassets */,
 				8E1956CD223083FB008300D3 /* Info.plist */,
 			);
@@ -220,7 +217,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E1956CC223083FB008300D3 /* Assets.xcassets in Resources */,
-				43E028C3224C658200C086A5 /* AppleKeys in Resources */,
 				4312E78E22519B100012DF54 /* AuthKey_U7XN79MW5Y.p8 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

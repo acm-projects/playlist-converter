@@ -10,7 +10,6 @@ import UIKit
 import Messages
 import Foundation
 
-
 class MessagesViewController: MSMessagesAppViewController {
     
     @IBOutlet weak var searchBar: UISearchBar!
@@ -18,6 +17,8 @@ class MessagesViewController: MSMessagesAppViewController {
     
     
     //@IBOutlet weak var tblView: UITableView!
+    
+    @IBOutlet weak var checkAuthorization: UIButton!
     
     
     

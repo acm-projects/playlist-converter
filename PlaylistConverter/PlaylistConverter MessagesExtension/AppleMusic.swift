@@ -11,22 +11,45 @@ import StoreKit
 import MediaPlayer
 
 class AppleMusic{
-   /* let myHeader=Header(alg:"ES256",kid:"U7XN79MW5V")
-    /*var claims={
-        iss:"3BCS59KXHM",
-        iat: Math.floor( Date.now() / 1000 ),
-        exp: Math.floor(Date.now() / 1000) + ( 60 * 60 * 24 )
-    }*/
     
-    let developerToken:[Any] = [
-            [
-                "alg": "ES256",
-                "kid":"U7XN79MW5V"
-            ]
-    ]
-    */
     func requestUserToken(forDeveloperToke developedToken: String,
                           completionHandler:@escaping(String?, Error?)->Void){
+        
+    }
+    
+    //used to setup authrizr and requestAuthorization
+    func checkAppleMusic(){
+        SKCloudServiceController.requestAuthorization({
+            (status: SKCloudServiceAuthorizationStatus) in
+            switch(status)
+            {
+            case .notDetermined:
+                print("Access cannot be determined.")
+            case .denied:
+                print("Access denied.")
+            case .restricted:
+                print("Access restricted.")
+            case .authorized:
+                print("Access granted.")
+            }
+        })
+    }
+    
+    func createEmptyPlaylist(){
+        let myPlaylistQuery = MPMediaQuery.playlists();
+        let playlists = myPlaylistQuery.collections
+        for playlist in playlists! {
+            print(playlist.value(forProperty: MPMediaPlaylistPropertyName)!)
+            
+            let songs = playlist.items
+            for song in songs{
+                let songTitle = song.value(forProperty: MPMediaItemPropertyTitle)
+                print("\t\t", songTitle!);
+            }
+        }
+    }
+    
+    func searchQuery(){
         
     }
     
@@ -37,7 +60,7 @@ class AppleMusic{
         myMediaPlayer.setQueue(with: MPMediaQuery.songs())
         // Start playing from the beginning of the queue
         myMediaPlayer.play()
-
+        
     }
     
 }

@@ -26,6 +26,11 @@
                                     <outlet property="delegate" destination="ObA-dk-sSI" id="lZ2-qr-MvF"/>
                                 </connections>
                             </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tTw-yv-62f">
+                                <rect key="frame" x="42" y="212" width="107" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="LDy-ih-0nr"/>
@@ -33,6 +38,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="528"/>
                     <connections>
+                        <outlet property="checkAuthorization" destination="tTw-yv-62f" id="PzP-LS-5mD"/>
                         <outlet property="searchBar" destination="qyp-Uw-zkg" id="WXF-TK-RZK"/>
                         <outlet property="searchDisplayController" destination="7VU-gz-MTo" id="Ybc-kv-oBG"/>
                     </connections>
