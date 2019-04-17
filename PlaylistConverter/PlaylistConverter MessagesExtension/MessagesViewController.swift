@@ -9,31 +9,75 @@
 import UIKit
 import Messages
 import Foundation
+import StoreKit
+import MediaPlayer
 
 class MessagesViewController: MSMessagesAppViewController {
     
+
+    
     @IBOutlet weak var searchBar: UISearchBar!
-    
-    
     
     //@IBOutlet weak var tblView: UITableView!
     
     @IBOutlet weak var checkAuthorization: UIButton!
     
+    @IBOutlet weak var searchSongs: UISearchBar!
     
-    
-    
-    
+    @IBAction func checkAuth(_ sender: UIButton) {
+        
+    }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        //checkAuthorization.addTarget(<#T##target: Any?##Any?#>, action: <#T##Selector#>, for: <#T##UIControl.Event#>)
+        
+        checkAppleMusic()
+        
+        //let myMusicPlayer = MPMusicPlayerController.systemMusicPlayer
+        
+        let songNameFilter = MPMediaPropertyPredicate(value: "They Don't Care About Us", forProperty: MPMediaItemPropertyTitle, comparisonType: MPMediaPredicateComparison.contains)
+        let artistNameFilter = MPMediaPropertyPredicate(value: "", forProperty: MPMediaItemPropertyTitle, comparisonType: MPMediaPredicateComparison.contains)
+        
+        let myFilterSet: Set<MPMediaPropertyPredicate> = [songNameFilter, artistNameFilter]
+        
+        let myQuery = MPMediaQuery(filterPredicates: myFilterSet)
+        let test = MPMediaQuery()
+        //myMusicPlayer.setQueue(with: myQuery)
+        
+        //myMusicPlayer.play()
+        
+        print("Corn")
+        print(myQuery.items![0].title ?? "Dont work")
+        print(myQuery.collections ?? "Dont work")
+        print(test.items![0].title ?? "Dont work")
+        //print(test.collections ?? "Dont work")
+        
+       // let library =
     }
     
     
     
-    
+    func checkAppleMusic(){
+        SKCloudServiceController.requestAuthorization({
+            (status: SKCloudServiceAuthorizationStatus) in
+            switch(status)
+            {
+            case .notDetermined:
+                print("Access cannot be determined.")
+            case .denied:
+                print("Access denied.")
+            case .restricted:
+                print("Access restricted.")
+            case .authorized:
+                print("Access granted.")
+            @unknown default:
+                print("Error")
+            }
+        })
+    }
     
     
     

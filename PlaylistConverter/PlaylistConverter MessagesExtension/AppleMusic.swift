@@ -17,8 +17,13 @@ class AppleMusic{
         
     }
     
+    
+    init() {
+        
+    }
+    
     //used to setup authrizr and requestAuthorization
-    func checkAppleMusic(){
+    /*func checkAppleMusic(){
         SKCloudServiceController.requestAuthorization({
             (status: SKCloudServiceAuthorizationStatus) in
             switch(status)
@@ -33,7 +38,7 @@ class AppleMusic{
                 print("Access granted.")
             }
         })
-    }
+    }*/
     
     func createEmptyPlaylist(){
         let myPlaylistQuery = MPMediaQuery.playlists();
@@ -49,9 +54,24 @@ class AppleMusic{
         }
     }
     
-    func searchQuery(){
+    func queryAppleMusic(songName: String, songArtist: String){
+        let myMusicPlayer = MPMusicPlayerController.systemMusicPlayer
         
+        let songNameFilter = MPMediaPropertyPredicate(value: songName, forProperty: MPMediaItemPropertyTitle, comparisonType: MPMediaPredicateComparison.contains)
+        let artistNameFilter = MPMediaPropertyPredicate(value: songArtist, forProperty: MPMediaItemPropertyTitle, comparisonType: MPMediaPredicateComparison.contains)
+        
+        let myFilterSet: Set<MPMediaPropertyPredicate> = [songNameFilter, artistNameFilter]
+        
+        let myQuery = MPMediaQuery(filterPredicates: myFilterSet)
+        myMusicPlayer.setQueue(with: myQuery)
+        
+        myMusicPlayer.play()
+        
+        print(myQuery.items?.first?.title)
     }
+    
+    
+    
     
     func test(){
         // Instantiate a new music player

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		4312E78E22519B100012DF54 /* AuthKey_U7XN79MW5Y.p8 in Resources */ = {isa = PBXBuildFile; fileRef = 4312E78D22519B100012DF54 /* AuthKey_U7XN79MW5Y.p8 */; };
 		4312E78F22519B100012DF54 /* AuthKey_U7XN79MW5Y.p8 in Resources */ = {isa = PBXBuildFile; fileRef = 4312E78D22519B100012DF54 /* AuthKey_U7XN79MW5Y.p8 */; };
+		435245382266DC01001BF6FA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435245372266DC01001BF6FA /* MediaPlayer.framework */; };
+		4352453A2266DC24001BF6FA /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435245392266DC24001BF6FA /* AssetsLibrary.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		4352453F2266DD5C001BF6FA /* NSObject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4352453E2266DD5C001BF6FA /* NSObject+Test.m */; };
 		43E028C0224C5DA700C086A5 /* AppleMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E028BF224C5DA700C086A5 /* AppleMusic.swift */; };
 		43E028C7224C695E00C086A5 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E028C6224C695E00C086A5 /* Package.swift */; };
 		43E028C9224C6EEE00C086A5 /* launchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E028C8224C6EEE00C086A5 /* launchScreen.storyboard */; };
@@ -47,6 +50,12 @@
 
 /* Begin PBXFileReference section */
 		4312E78D22519B100012DF54 /* AuthKey_U7XN79MW5Y.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_U7XN79MW5Y.p8; sourceTree = "<group>"; };
+		435245372266DC01001BF6FA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		435245392266DC24001BF6FA /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		4352453B2266DD3F001BF6FA /* PlaylistConverter MessagesExtension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlaylistConverter MessagesExtension-Bridging-Header.h"; sourceTree = "<group>"; };
+		4352453C2266DD3F001BF6FA /* AppleMusic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleMusic.h; sourceTree = "<group>"; };
+		4352453D2266DD5C001BF6FA /* NSObject+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Test.h"; sourceTree = "<group>"; };
+		4352453E2266DD5C001BF6FA /* NSObject+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Test.m"; sourceTree = "<group>"; };
 		43E028BF224C5DA700C086A5 /* AppleMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusic.swift; sourceTree = "<group>"; };
 		43E028C6224C695E00C086A5 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		43E028C8224C6EEE00C086A5 /* launchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = launchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4352453A2266DC24001BF6FA /* AssetsLibrary.framework in Frameworks */,
+				435245382266DC01001BF6FA /* MediaPlayer.framework in Frameworks */,
 				8E1956D8223083FB008300D3 /* Messages.framework in Frameworks */,
 				8E1956ED223086A4008300D3 /* AudioToolbox.framework in Frameworks */,
 			);
@@ -107,6 +118,8 @@
 		8E1956D6223083FB008300D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				435245392266DC24001BF6FA /* AssetsLibrary.framework */,
+				435245372266DC01001BF6FA /* MediaPlayer.framework */,
 				8E1956EC223086A4008300D3 /* AudioToolbox.framework */,
 				8E1956D7223083FB008300D3 /* Messages.framework */,
 			);
@@ -120,11 +133,15 @@
 				8E1956EB2230869E008300D3 /* PlaylistConverter MessagesExtension.entitlements */,
 				8E1956DA223083FC008300D3 /* MessagesViewController.swift */,
 				43E028C6224C695E00C086A5 /* Package.swift */,
+				4352453C2266DD3F001BF6FA /* AppleMusic.h */,
+				4352453D2266DD5C001BF6FA /* NSObject+Test.h */,
+				4352453E2266DD5C001BF6FA /* NSObject+Test.m */,
 				43E028BF224C5DA700C086A5 /* AppleMusic.swift */,
 				8E1956DC223083FC008300D3 /* MainInterface.storyboard */,
 				43E028C8224C6EEE00C086A5 /* launchScreen.storyboard */,
 				8E1956DF223083FC008300D3 /* Assets.xcassets */,
 				8E1956E1223083FC008300D3 /* Info.plist */,
+				4352453B2266DD3F001BF6FA /* PlaylistConverter MessagesExtension-Bridging-Header.h */,
 			);
 			path = "PlaylistConverter MessagesExtension";
 			sourceTree = "<group>";
@@ -181,12 +198,13 @@
 					};
 					8E1956D1223083FB008300D3 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.InterAppAudio = {
 								enabled = 1;
 							};
 							com.apple.iCloud = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -240,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43E028C7224C695E00C086A5 /* Package.swift in Sources */,
+				4352453F2266DD5C001BF6FA /* NSObject+Test.m in Sources */,
 				43E028C0224C5DA700C086A5 /* AppleMusic.swift in Sources */,
 				8E1956DB223083FC008300D3 /* MessagesViewController.swift in Sources */,
 			);
@@ -387,6 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "PlaylistConverter MessagesExtension/PlaylistConverter MessagesExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3BCS59KYHM;
@@ -399,7 +419,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example..PlaylistConverter.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "PlaylistConverter MessagesExtension/PlaylistConverter MessagesExtension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -408,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "PlaylistConverter MessagesExtension/PlaylistConverter MessagesExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3BCS59KYHM;
@@ -420,7 +443,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example..PlaylistConverter.MessagesExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "PlaylistConverter MessagesExtension/PlaylistConverter MessagesExtension-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
