@@ -20,6 +20,8 @@
 	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>NSAppleMusicUsageDescription - 2</key>
+	<string>Demonstrating using StoreKit and MediaPlayer APIs.</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>NSExtension</key>

@@ -11,7 +11,6 @@
 		4312E78F22519B100012DF54 /* AuthKey_U7XN79MW5Y.p8 in Resources */ = {isa = PBXBuildFile; fileRef = 4312E78D22519B100012DF54 /* AuthKey_U7XN79MW5Y.p8 */; };
 		435245382266DC01001BF6FA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435245372266DC01001BF6FA /* MediaPlayer.framework */; };
 		4352453A2266DC24001BF6FA /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435245392266DC24001BF6FA /* AssetsLibrary.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		4352453F2266DD5C001BF6FA /* NSObject+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4352453E2266DD5C001BF6FA /* NSObject+Test.m */; };
 		43E028C0224C5DA700C086A5 /* AppleMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E028BF224C5DA700C086A5 /* AppleMusic.swift */; };
 		43E028C7224C695E00C086A5 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E028C6224C695E00C086A5 /* Package.swift */; };
 		43E028C9224C6EEE00C086A5 /* launchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E028C8224C6EEE00C086A5 /* launchScreen.storyboard */; };
@@ -49,19 +48,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4308660B226D288F00584755 /* MediaSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaSearchTableViewController.swift; sourceTree = "<group>"; };
+		4308660C226D288F00584755 /* MediaItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaItemTableViewCell.swift; sourceTree = "<group>"; };
+		4308660D226D288F00584755 /* AuthorizationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationTableViewController.swift; sourceTree = "<group>"; };
+		4308660F226D289D00584755 /* SerializationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerializationError.swift; sourceTree = "<group>"; };
+		43086610226D289D00584755 /* MediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		43086611226D289D00584755 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		43086616226D28AA00584755 /* AppleMusicRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicRequestFactory.swift; sourceTree = "<group>"; };
+		43086617226D28AA00584755 /* JSONKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONKeys.swift; sourceTree = "<group>"; };
+		43086619226D2D4800584755 /* AppleMusicRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicRequestFactory.swift; sourceTree = "<group>"; };
+		4308661A226D2D4800584755 /* JSONKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONKeys.swift; sourceTree = "<group>"; };
+		4308661C226D2D9700584755 /* AuthorizationDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationDataSource.swift; sourceTree = "<group>"; };
+		4308661D226D2D9700584755 /* AppleMusicManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMusicManager.swift; sourceTree = "<group>"; };
+		4308661E226D2D9700584755 /* MediaLibraryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaLibraryManager.swift; sourceTree = "<group>"; };
+		4308661F226D2D9700584755 /* AuthorizationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationManager.swift; sourceTree = "<group>"; };
 		4312E78D22519B100012DF54 /* AuthKey_U7XN79MW5Y.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AuthKey_U7XN79MW5Y.p8; sourceTree = "<group>"; };
 		435245372266DC01001BF6FA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		435245392266DC24001BF6FA /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		4352453B2266DD3F001BF6FA /* PlaylistConverter MessagesExtension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlaylistConverter MessagesExtension-Bridging-Header.h"; sourceTree = "<group>"; };
 		4352453C2266DD3F001BF6FA /* AppleMusic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppleMusic.h; sourceTree = "<group>"; };
-		4352453D2266DD5C001BF6FA /* NSObject+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Test.h"; sourceTree = "<group>"; };
-		4352453E2266DD5C001BF6FA /* NSObject+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Test.m"; sourceTree = "<group>"; };
 		43E028BF224C5DA700C086A5 /* AppleMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusic.swift; sourceTree = "<group>"; };
 		43E028C6224C695E00C086A5 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		43E028C8224C6EEE00C086A5 /* launchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = launchScreen.storyboard; sourceTree = "<group>"; };
 		8E1956C8223083F6008300D3 /* PlaylistConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E1956CB223083FB008300D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8E1956CD223083FB008300D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1956CD223083FB008300D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../PlaylistConverter/Info.plist; sourceTree = "<group>"; };
 		8E1956D2223083FB008300D3 /* PlaylistConverter MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PlaylistConverter MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E1956D7223083FB008300D3 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
 		8E1956DA223083FC008300D3 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +98,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4308660A226D288F00584755 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4308660D226D288F00584755 /* AuthorizationTableViewController.swift */,
+				4308660B226D288F00584755 /* MediaSearchTableViewController.swift */,
+				4308660C226D288F00584755 /* MediaItemTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4308660E226D289D00584755 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4308660F226D289D00584755 /* SerializationError.swift */,
+				43086610226D289D00584755 /* MediaItem.swift */,
+				43086611226D289D00584755 /* Artwork.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43086615226D28AA00584755 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				43086616226D28AA00584755 /* AppleMusicRequestFactory.swift */,
+				43086617226D28AA00584755 /* JSONKeys.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		43086618226D2D4800584755 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				43086619226D2D4800584755 /* AppleMusicRequestFactory.swift */,
+				4308661A226D2D4800584755 /* JSONKeys.swift */,
+			);
+			name = Utility;
+			path = ../PlaylistConverter/Utility;
+			sourceTree = "<group>";
+		};
+		4308661B226D2D9700584755 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4308661F226D2D9700584755 /* AuthorizationManager.swift */,
+				4308661C226D2D9700584755 /* AuthorizationDataSource.swift */,
+				4308661D226D2D9700584755 /* AppleMusicManager.swift */,
+				4308661E226D2D9700584755 /* MediaLibraryManager.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		8E1956C1223083F6008300D3 = {
 			isa = PBXGroup;
 			children = (
@@ -110,7 +171,6 @@
 			isa = PBXGroup;
 			children = (
 				8E1956CB223083FB008300D3 /* Assets.xcassets */,
-				8E1956CD223083FB008300D3 /* Info.plist */,
 			);
 			path = PlaylistConverter;
 			sourceTree = "<group>";
@@ -129,13 +189,17 @@
 		8E1956D9223083FB008300D3 /* PlaylistConverter MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
+				4308661B226D2D9700584755 /* Controllers */,
+				43086615226D28AA00584755 /* Utility */,
+				4308660E226D289D00584755 /* Model */,
+				43086618226D2D4800584755 /* Utility */,
+				4308660A226D288F00584755 /* Views */,
+				8E1956CD223083FB008300D3 /* Info.plist */,
 				4312E78D22519B100012DF54 /* AuthKey_U7XN79MW5Y.p8 */,
 				8E1956EB2230869E008300D3 /* PlaylistConverter MessagesExtension.entitlements */,
 				8E1956DA223083FC008300D3 /* MessagesViewController.swift */,
 				43E028C6224C695E00C086A5 /* Package.swift */,
 				4352453C2266DD3F001BF6FA /* AppleMusic.h */,
-				4352453D2266DD5C001BF6FA /* NSObject+Test.h */,
-				4352453E2266DD5C001BF6FA /* NSObject+Test.m */,
 				43E028BF224C5DA700C086A5 /* AppleMusic.swift */,
 				8E1956DC223083FC008300D3 /* MainInterface.storyboard */,
 				43E028C8224C6EEE00C086A5 /* launchScreen.storyboard */,
@@ -200,6 +264,9 @@
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1020;
 						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
 							com.apple.InterAppAudio = {
 								enabled = 1;
 							};
@@ -258,7 +325,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				43E028C7224C695E00C086A5 /* Package.swift in Sources */,
-				4352453F2266DD5C001BF6FA /* NSObject+Test.m in Sources */,
 				43E028C0224C5DA700C086A5 /* AppleMusic.swift in Sources */,
 				8E1956DB223083FC008300D3 /* MessagesViewController.swift in Sources */,
 			);

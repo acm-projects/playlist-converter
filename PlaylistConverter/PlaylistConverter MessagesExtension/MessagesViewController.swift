@@ -28,34 +28,27 @@ class MessagesViewController: MSMessagesAppViewController {
         
     }
     
+    /// The instance of `AuthorizationManager` used for querying and requesting authorization status.
+    //var authorizationManager: AuthorizationManager!
+    
+    /// The instance of `AuthorizationDataSource` that provides information for the `UITableView`.
+   // var authorizationDataSource: AuthorizationDataSource!
+    
+    /// A boolean value representing if a `SKCloudServiceSetupViewController` was presented while the application was running.
+    var didPresentCloudServiceSetup = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("Corn")
         // Do any additional setup after loading the view.
         //checkAuthorization.addTarget(<#T##target: Any?##Any?#>, action: <#T##Selector#>, for: <#T##UIControl.Event#>)
+    
         
         checkAppleMusic()
+        let appleMusic: AppleMusic = AppleMusic.init()
         
-        //let myMusicPlayer = MPMusicPlayerController.systemMusicPlayer
-        
-        let songNameFilter = MPMediaPropertyPredicate(value: "They Don't Care About Us", forProperty: MPMediaItemPropertyTitle, comparisonType: MPMediaPredicateComparison.contains)
-        let artistNameFilter = MPMediaPropertyPredicate(value: "", forProperty: MPMediaItemPropertyTitle, comparisonType: MPMediaPredicateComparison.contains)
-        
-        let myFilterSet: Set<MPMediaPropertyPredicate> = [songNameFilter, artistNameFilter]
-        
-        let myQuery = MPMediaQuery(filterPredicates: myFilterSet)
-        let test = MPMediaQuery()
-        //myMusicPlayer.setQueue(with: myQuery)
-        
-        //myMusicPlayer.play()
-        
-        print("Corn")
-        print(myQuery.items![0].title ?? "Dont work")
-        print(myQuery.collections ?? "Dont work")
-        print(test.items![0].title ?? "Dont work")
-        //print(test.collections ?? "Dont work")
-        
-       // let library =
+        appleMusic.createEmptyPlaylist()
+       
     }
     
     
@@ -105,6 +98,9 @@ class MessagesViewController: MSMessagesAppViewController {
         // extension on a remote device.
         
         // Use this method to trigger UI updates in response to the message.
+        if((message.url) != nil){
+            print(message.url ?? "Not here")
+        }
     }
     
     override func didStartSending(_ message: MSMessage, conversation: MSConversation) {

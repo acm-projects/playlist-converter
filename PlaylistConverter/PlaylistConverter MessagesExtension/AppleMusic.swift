@@ -67,7 +67,7 @@ class AppleMusic{
         
         myMusicPlayer.play()
         
-        print(myQuery.items?.first?.title)
+        print(myQuery.items?.first?.title! as Any)
     }
     
     
