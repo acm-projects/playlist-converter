@@ -28,14 +28,7 @@ class MessagesViewController: MSMessagesAppViewController {
         
     }
     
-    /// The instance of `AuthorizationManager` used for querying and requesting authorization status.
-    //var authorizationManager: AuthorizationManager!
-    
-    /// The instance of `AuthorizationDataSource` that provides information for the `UITableView`.
-   // var authorizationDataSource: AuthorizationDataSource!
-    
-    /// A boolean value representing if a `SKCloudServiceSetupViewController` was presented while the application was running.
-    var didPresentCloudServiceSetup = false
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -46,7 +46,7 @@ class AuthorizationTableViewController: UITableViewController {
         
         notificationCenter.addObserver(self,
                                        selector: #selector(handleAuthorizationManagerDidUpdateNotification),
-                                       name: .UIApplicationWillEnterForeground,
+                                       name: UIApplication.willEnterForegroundNotification,
                                        object: nil)
         
         setAuthorizationRequestButtonState()
@@ -69,7 +69,7 @@ class AuthorizationTableViewController: UITableViewController {
                                           name: AuthorizationManager.authorizationDidUpdateNotification,
                                           object: nil)
         notificationCenter.removeObserver(self,
-                                          name: .UIApplicationWillEnterForeground,
+                                          name: UIApplication.willEnterForegroundNotification,
                                           object: nil)
     }
     

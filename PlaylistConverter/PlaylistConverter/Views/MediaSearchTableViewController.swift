@@ -43,7 +43,7 @@ class MediaSearchTableViewController: UITableViewController {
         super.viewDidLoad()
         
         // Configure self sizing cells.
-        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 100
         
         // Configure the `UISearchController`.
@@ -66,7 +66,7 @@ class MediaSearchTableViewController: UITableViewController {
         
         notificationCenter.addObserver(self,
                                        selector: #selector(handleAuthorizationManagerAuthorizationDidUpdateNotification),
-                                       name: .UIApplicationWillEnterForeground,
+                                       name: UIApplication.willEnterForegroundNotification,
                                        object: nil)
     }
     
@@ -75,7 +75,7 @@ class MediaSearchTableViewController: UITableViewController {
         let notificationCenter = NotificationCenter.default
         
         notificationCenter.removeObserver(self, name: AuthorizationManager.authorizationDidUpdateNotification, object: nil)
-        notificationCenter.removeObserver(self, name: NSNotification.Name.UIApplicationWillEnterForeground, object: nil)
+        notificationCenter.removeObserver(self, name: UIApplication.willEnterForegroundNotification, object: nil)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -88,7 +88,7 @@ class MediaSearchTableViewController: UITableViewController {
             let alertController = UIAlertController(title: "Error",
                                                     message: "No developer token was specified. See the README for more information.",
                                                     preferredStyle: .alert)
-            alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.cancel, handler: nil))
+            alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertAction.Style.cancel, handler: nil))
             present(alertController, animated: true, completion: nil)
         } else {
             searchController.searchBar.isUserInteractionEnabled = true
