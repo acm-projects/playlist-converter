@@ -32,16 +32,15 @@ class MessagesViewController: MSMessagesAppViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Corn")
-        // Do any additional setup after loading the view.
-        //checkAuthorization.addTarget(<#T##target: Any?##Any?#>, action: <#T##Selector#>, for: <#T##UIControl.Event#>)
-    
-        
+        print("Con")
+        print("2")
         checkAppleMusic()
-        let appleMusic: AppleMusic = AppleMusic.init()
-        
-        appleMusic.createEmptyPlaylist()
-       
+        print("check")
+        var appleMusic: AppleMusic!
+        appleMusic.checkAppleMusic()
+        print("search")
+        appleMusic.queryAppleMusic(songName: "I like it", songArtist: "")
+        print("fin")
     }
     
     
