@@ -1,0 +1,558 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MessagesViewController"
+provides-nominal:
+- "35PlaylistConverter_MessagesExtension0C14ViewControllerC"
+- "35PlaylistConverter_MessagesExtension0C14ViewControllerC08GradientE0C"
+provides-member:
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC", ""]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC08GradientE0C", ""]
+provides-dynamic-lookup:
+- "didCancelSending"
+- "didReceive"
+- "didResignActive"
+- "didStartSending"
+- "didTransition"
+- "firstColor"
+- "layerClass"
+- "searchBar"
+- "secondColor"
+- "viewDidLoad"
+- "willBecomeActive"
+- "willTransition"
+depends-top-level:
+- "AnyClass"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "CAGradientLayer"
+- "CastingPrecedence"
+- "MSConversation"
+- "MSMessage"
+- "MSMessagesAppPresentationStyle"
+- "MSMessagesAppViewController"
+- "MessagesViewController"
+- "UIColor"
+- "UISearchBar"
+- "UIView"
+depends-member:
+- !private ["Sa", "map"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["SK", "map"]
+- !private ["So15CAGradientLayerC", "colors"]
+- !private ["So7CALayerC", "colors"]
+- !private ["So15CALayerDelegateP", "CAGradientLayer"]
+- ["So15CALayerDelegateP", "UIColor"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "firstColor"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So15CALayerDelegateP", "secondColor"]
+- !private ["So15CALayerDelegateP", "updateView"]
+- !private ["So13CAMediaTimingP", "colors"]
+- !private ["s7CVarArgP", "CAGradientLayer"]
+- ["s7CVarArgP", "UIColor"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "cgColor"]
+- ["s7CVarArgP", "clear"]
+- !private ["s7CVarArgP", "colors"]
+- !private ["s7CVarArgP", "firstColor"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "secondColor"]
+- !private ["s7CVarArgP", "updateView"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "CAGradientLayer"]
+- ["s28CustomDebugStringConvertibleP", "UIColor"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "cgColor"]
+- ["s28CustomDebugStringConvertibleP", "clear"]
+- !private ["s28CustomDebugStringConvertibleP", "colors"]
+- !private ["s28CustomDebugStringConvertibleP", "firstColor"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "secondColor"]
+- !private ["s28CustomDebugStringConvertibleP", "updateView"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "CAGradientLayer"]
+- ["s23CustomStringConvertibleP", "UIColor"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "cgColor"]
+- ["s23CustomStringConvertibleP", "clear"]
+- !private ["s23CustomStringConvertibleP", "colors"]
+- !private ["s23CustomStringConvertibleP", "firstColor"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "secondColor"]
+- !private ["s23CustomStringConvertibleP", "updateView"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "map"]
+- !private ["SE", "map"]
+- !private ["SQ", "CAGradientLayer"]
+- ["SQ", "UIColor"]
+- ["SQ", ""]
+- !private ["SQ", "cgColor"]
+- ["SQ", "clear"]
+- !private ["SQ", "colors"]
+- !private ["SQ", "firstColor"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "layer"]
+- !private ["SQ", "map"]
+- !private ["SQ", "secondColor"]
+- !private ["SQ", "updateView"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC08GradientE0C", "AnyClass"]
+- !private ["35PlaylistConverter_MessagesExtension0C14ViewControllerC08GradientE0C", "CAGradientLayer"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC08GradientE0C", "UIColor"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC08GradientE0C", "firstColor"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC08GradientE0C", "init"]
+- !private ["35PlaylistConverter_MessagesExtension0C14ViewControllerC08GradientE0C", "layer"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC08GradientE0C", "layerClass"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC08GradientE0C", "secondColor"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC08GradientE0C", "updateView"]
+- !private ["SH", "CAGradientLayer"]
+- ["SH", "UIColor"]
+- ["SH", ""]
+- !private ["SH", "cgColor"]
+- ["SH", "clear"]
+- !private ["SH", "colors"]
+- !private ["SH", "firstColor"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "layer"]
+- !private ["SH", "map"]
+- !private ["SH", "secondColor"]
+- !private ["SH", "updateView"]
+- !private ["SH", "viewDidLoad"]
+- !private ["So35MSMessagesAppTranscriptPresentationP", "CAGradientLayer"]
+- ["So35MSMessagesAppTranscriptPresentationP", "UIColor"]
+- ["So35MSMessagesAppTranscriptPresentationP", ""]
+- !private ["So35MSMessagesAppTranscriptPresentationP", "init"]
+- !private ["So35MSMessagesAppTranscriptPresentationP", "init"]
+- !private ["So35MSMessagesAppTranscriptPresentationP", "viewDidLoad"]
+- ["So27MSMessagesAppViewControllerC", "AnyClass"]
+- !private ["So27MSMessagesAppViewControllerC", "CAGradientLayer"]
+- ["So27MSMessagesAppViewControllerC", "MSConversation"]
+- ["So27MSMessagesAppViewControllerC", "MSMessage"]
+- ["So27MSMessagesAppViewControllerC", "MSMessagesAppPresentationStyle"]
+- ["So27MSMessagesAppViewControllerC", "UIColor"]
+- ["So27MSMessagesAppViewControllerC", "UISearchBar"]
+- ["So27MSMessagesAppViewControllerC", "UIView"]
+- ["So27MSMessagesAppViewControllerC", ""]
+- ["So27MSMessagesAppViewControllerC", "didCancelSending"]
+- ["So27MSMessagesAppViewControllerC", "didReceive"]
+- ["So27MSMessagesAppViewControllerC", "didResignActive"]
+- ["So27MSMessagesAppViewControllerC", "didStartSending"]
+- ["So27MSMessagesAppViewControllerC", "didTransition"]
+- ["So27MSMessagesAppViewControllerC", "init"]
+- !private ["So27MSMessagesAppViewControllerC", "init"]
+- ["So27MSMessagesAppViewControllerC", "searchBar"]
+- ["So27MSMessagesAppViewControllerC", "viewDidLoad"]
+- ["So27MSMessagesAppViewControllerC", "willBecomeActive"]
+- ["So27MSMessagesAppViewControllerC", "willTransition"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC", "AnyClass"]
+- !private ["35PlaylistConverter_MessagesExtension0C14ViewControllerC", "CAGradientLayer"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC", "GradientView"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC", "MSConversation"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC", "MSMessage"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC", "MSMessagesAppPresentationStyle"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC", "UIColor"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC", "UISearchBar"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC", "UIView"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC", "didCancelSending"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC", "didReceive"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC", "didResignActive"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC", "didStartSending"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC", "didTransition"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC", "init"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC", "searchBar"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC", "viewDidLoad"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC", "willBecomeActive"]
+- ["35PlaylistConverter_MessagesExtension0C14ViewControllerC", "willTransition"]
+- !private ["SM", "map"]
+- !private ["So8NSCodingP", "CAGradientLayer"]
+- ["So8NSCodingP", "UIColor"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "cgColor"]
+- ["So8NSCodingP", "clear"]
+- !private ["So8NSCodingP", "colors"]
+- !private ["So8NSCodingP", "firstColor"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "secondColor"]
+- !private ["So8NSCodingP", "updateView"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "cgColor"]
+- ["So9NSCopyingP", "clear"]
+- !private ["So26NSExtensionRequestHandlingP", "CAGradientLayer"]
+- ["So26NSExtensionRequestHandlingP", "UIColor"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "cgColor"]
+- ["So21NSItemProviderReadingP", "clear"]
+- !private ["So21NSItemProviderWritingP", "cgColor"]
+- ["So21NSItemProviderWritingP", "clear"]
+- ["So8NSObjectC", "AnyClass"]
+- !private ["So8NSObjectC", "CAGradientLayer"]
+- ["So8NSObjectC", "MSConversation"]
+- ["So8NSObjectC", "MSMessage"]
+- ["So8NSObjectC", "MSMessagesAppPresentationStyle"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UISearchBar"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "cgColor"]
+- ["So8NSObjectC", "clear"]
+- !private ["So8NSObjectC", "colors"]
+- ["So8NSObjectC", "didCancelSending"]
+- ["So8NSObjectC", "didReceive"]
+- ["So8NSObjectC", "didResignActive"]
+- ["So8NSObjectC", "didStartSending"]
+- ["So8NSObjectC", "didTransition"]
+- ["So8NSObjectC", "firstColor"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "layer"]
+- ["So8NSObjectC", "layerClass"]
+- ["So8NSObjectC", "searchBar"]
+- ["So8NSObjectC", "secondColor"]
+- ["So8NSObjectC", "updateView"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "willBecomeActive"]
+- ["So8NSObjectC", "willTransition"]
+- !private ["So8NSObjectP", "CAGradientLayer"]
+- ["So8NSObjectP", "UIColor"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "cgColor"]
+- ["So8NSObjectP", "clear"]
+- !private ["So8NSObjectP", "colors"]
+- !private ["So8NSObjectP", "firstColor"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "layer"]
+- !private ["So8NSObjectP", "secondColor"]
+- !private ["So8NSObjectP", "updateView"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "cgColor"]
+- ["So14NSSecureCodingP", "clear"]
+- !private ["So14NSSecureCodingP", "colors"]
+- !private ["Sk", "map"]
+- !private ["Sm", "map"]
+- !private ["ST", "map"]
+- !private ["So29UIAccessibilityIdentificationP", "CAGradientLayer"]
+- ["So29UIAccessibilityIdentificationP", "UIColor"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "firstColor"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So29UIAccessibilityIdentificationP", "secondColor"]
+- !private ["So29UIAccessibilityIdentificationP", "updateView"]
+- !private ["So12UIAppearanceP", "CAGradientLayer"]
+- ["So12UIAppearanceP", "UIColor"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "firstColor"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So12UIAppearanceP", "secondColor"]
+- !private ["So12UIAppearanceP", "updateView"]
+- !private ["So21UIAppearanceContainerP", "CAGradientLayer"]
+- ["So21UIAppearanceContainerP", "UIColor"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "firstColor"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So21UIAppearanceContainerP", "secondColor"]
+- !private ["So21UIAppearanceContainerP", "updateView"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So7UIColorC", "cgColor"]
+- ["So7UIColorC", "clear"]
+- !private ["So18UIContentContainerP", "CAGradientLayer"]
+- ["So18UIContentContainerP", "UIColor"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "CAGradientLayer"]
+- ["So17UICoordinateSpaceP", "UIColor"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "firstColor"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So17UICoordinateSpaceP", "secondColor"]
+- !private ["So17UICoordinateSpaceP", "updateView"]
+- !private ["So13UIDynamicItemP", "CAGradientLayer"]
+- ["So13UIDynamicItemP", "UIColor"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "firstColor"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So13UIDynamicItemP", "secondColor"]
+- !private ["So13UIDynamicItemP", "updateView"]
+- !private ["So18UIFocusEnvironmentP", "CAGradientLayer"]
+- ["So18UIFocusEnvironmentP", "UIColor"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "firstColor"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "secondColor"]
+- !private ["So18UIFocusEnvironmentP", "updateView"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "CAGradientLayer"]
+- ["So11UIFocusItemP", "UIColor"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "firstColor"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So11UIFocusItemP", "secondColor"]
+- !private ["So11UIFocusItemP", "updateView"]
+- !private ["So20UIFocusItemContainerP", "CAGradientLayer"]
+- ["So20UIFocusItemContainerP", "UIColor"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "firstColor"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "layer"]
+- !private ["So20UIFocusItemContainerP", "secondColor"]
+- !private ["So20UIFocusItemContainerP", "updateView"]
+- !private ["So30UIPasteConfigurationSupportingP", "CAGradientLayer"]
+- ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "firstColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "secondColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "updateView"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "AnyClass"]
+- !private ["So11UIResponderC", "CAGradientLayer"]
+- ["So11UIResponderC", "MSConversation"]
+- ["So11UIResponderC", "MSMessage"]
+- ["So11UIResponderC", "MSMessagesAppPresentationStyle"]
+- ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UISearchBar"]
+- ["So11UIResponderC", "UIView"]
+- ["So11UIResponderC", "didCancelSending"]
+- ["So11UIResponderC", "didReceive"]
+- ["So11UIResponderC", "didResignActive"]
+- ["So11UIResponderC", "didStartSending"]
+- ["So11UIResponderC", "didTransition"]
+- ["So11UIResponderC", "firstColor"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "layerClass"]
+- ["So11UIResponderC", "searchBar"]
+- ["So11UIResponderC", "secondColor"]
+- ["So11UIResponderC", "updateView"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "willBecomeActive"]
+- ["So11UIResponderC", "willTransition"]
+- !private ["So30UIResponderStandardEditActionsP", "CAGradientLayer"]
+- ["So30UIResponderStandardEditActionsP", "UIColor"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "firstColor"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "secondColor"]
+- !private ["So30UIResponderStandardEditActionsP", "updateView"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "CAGradientLayer"]
+- ["So16UIStateRestoringP", "UIColor"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "CAGradientLayer"]
+- ["So18UITraitEnvironmentP", "UIColor"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "firstColor"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- !private ["So18UITraitEnvironmentP", "secondColor"]
+- !private ["So18UITraitEnvironmentP", "updateView"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "CAGradientLayer"]
+- ["So23UIUserActivityRestoringP", "UIColor"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "firstColor"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "layer"]
+- !private ["So23UIUserActivityRestoringP", "secondColor"]
+- !private ["So23UIUserActivityRestoringP", "updateView"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So6UIViewC", "AnyClass"]
+- !private ["So6UIViewC", "CAGradientLayer"]
+- ["So6UIViewC", "UIColor"]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "firstColor"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "layer"]
+- ["So6UIViewC", "layerClass"]
+- ["So6UIViewC", "secondColor"]
+- ["So6UIViewC", "updateView"]
+- ["So16UIViewControllerC", "AnyClass"]
+- !private ["So16UIViewControllerC", "CAGradientLayer"]
+- ["So16UIViewControllerC", "MSConversation"]
+- ["So16UIViewControllerC", "MSMessage"]
+- ["So16UIViewControllerC", "MSMessagesAppPresentationStyle"]
+- ["So16UIViewControllerC", "UIColor"]
+- ["So16UIViewControllerC", "UISearchBar"]
+- ["So16UIViewControllerC", "UIView"]
+- ["So16UIViewControllerC", "didCancelSending"]
+- ["So16UIViewControllerC", "didReceive"]
+- ["So16UIViewControllerC", "didResignActive"]
+- ["So16UIViewControllerC", "didStartSending"]
+- ["So16UIViewControllerC", "didTransition"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "searchBar"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "willBecomeActive"]
+- ["So16UIViewControllerC", "willTransition"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "CAGradientLayer"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "UIColor"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "firstColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "secondColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "updateView"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s26_ExpressibleByColorLiteralP", "cgColor"]
+- ["s26_ExpressibleByColorLiteralP", "clear"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CAGradientLayer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "clear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "colors"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "firstColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "secondColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "So15CAGradientLayerC"
+- !private "So7CALayerC"
+- "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- "s7CVarArgP"
+- !private "Sl"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "35PlaylistConverter_MessagesExtension0C14ViewControllerC08GradientE0C"
+- "SH"
+- "So35MSMessagesAppTranscriptPresentationP"
+- "So27MSMessagesAppViewControllerC"
+- "35PlaylistConverter_MessagesExtension0C14ViewControllerC"
+- !private "SM"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So7UIColorC"
+- "So18UIContentContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s26_ExpressibleByColorLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "85301cb66920d5a9a46f58720cce9b11"

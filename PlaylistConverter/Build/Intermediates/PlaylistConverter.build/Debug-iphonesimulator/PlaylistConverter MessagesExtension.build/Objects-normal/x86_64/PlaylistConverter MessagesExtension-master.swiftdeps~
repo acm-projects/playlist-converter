@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "aad6a241d1de20962c9bd03076250c91"
+build_time: [1556129425, 986645000]
+inputs:
+  "/Users/andreagomez/Documents/GitHub/playlist-converter/PlaylistConverter/PlaylistConverter MessagesExtension/Package.swift": [1554565788, 0]
+  "/Users/andreagomez/Documents/GitHub/playlist-converter/PlaylistConverter/PlaylistConverter MessagesExtension/AppleMusic.swift": [1554565788, 0]
+  "/Users/andreagomez/Documents/GitHub/playlist-converter/PlaylistConverter/PlaylistConverter MessagesExtension/MessagesViewController.swift": [1556129424, 0]

@@ -21,21 +21,14 @@ class MessagesViewController: MSMessagesAppViewController {
     
     
     
-    
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     
     
-    
-    
-    
-    
-    
+
+        
     // MARK: - Conversation Handling
     override func willBecomeActive(with conversation: MSConversation) {
         // Called when the extension is about to move from the inactive to active state.
