@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DBDDF922266AF2400F929B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBDDF912266AF2400F929B3 /* AppDelegate.swift */; };
+		6DBDDF942266AF2400F929B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBDDF932266AF2400F929B3 /* ViewController.swift */; };
+		6DBDDF972266AF2400F929B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBDDF952266AF2400F929B3 /* Main.storyboard */; };
+		6DBDDF992266AF2600F929B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DBDDF982266AF2600F929B3 /* Assets.xcassets */; };
+		6DBDDF9C2266AF2600F929B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBDDF9A2266AF2600F929B3 /* LaunchScreen.storyboard */; };
+		6DBDDFA72266AF2700F929B3 /* SPTLoginSwiftAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBDDFA62266AF2700F929B3 /* SPTLoginSwiftAppTests.swift */; };
+		6DBDDFB22266AF2700F929B3 /* SPTLoginSwiftAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBDDFB12266AF2700F929B3 /* SPTLoginSwiftAppUITests.swift */; };
+		6DBDDFC02266B37A00F929B3 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DBDDFBF2266B37A00F929B3 /* SpotifyiOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DBDDFA32266AF2700F929B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DBDDF862266AF2400F929B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DBDDF8D2266AF2400F929B3;
+			remoteInfo = SPTLoginSwiftApp;
+		};
+		6DBDDFAE2266AF2700F929B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DBDDF862266AF2400F929B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DBDDF8D2266AF2400F929B3;
+			remoteInfo = SPTLoginSwiftApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DBDDF8E2266AF2400F929B3 /* SPTLoginSwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPTLoginSwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBDDF912266AF2400F929B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DBDDF932266AF2400F929B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DBDDF962266AF2400F929B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DBDDF982266AF2600F929B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DBDDF9B2266AF2600F929B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DBDDF9D2266AF2700F929B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBDDFA22266AF2700F929B3 /* SPTLoginSwiftAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPTLoginSwiftAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBDDFA62266AF2700F929B3 /* SPTLoginSwiftAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPTLoginSwiftAppTests.swift; sourceTree = "<group>"; };
+		6DBDDFA82266AF2700F929B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBDDFAD2266AF2700F929B3 /* SPTLoginSwiftAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPTLoginSwiftAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DBDDFB12266AF2700F929B3 /* SPTLoginSwiftAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPTLoginSwiftAppUITests.swift; sourceTree = "<group>"; };
+		6DBDDFB32266AF2700F929B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DBDDFBF2266B37A00F929B3 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
+		6DBDDFC22266FDA900F929B3 /* SPTLoginSwiftApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SPTLoginSwiftApp-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DBDDF8B2266AF2400F929B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBDDFC02266B37A00F929B3 /* SpotifyiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBDDF9F2266AF2700F929B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBDDFAA2266AF2700F929B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DBDDF852266AF2400F929B3 = {
+			isa = PBXGroup;
+			children = (
+				6DBDDF902266AF2400F929B3 /* SPTLoginSwiftApp */,
+				6DBDDFA52266AF2700F929B3 /* SPTLoginSwiftAppTests */,
+				6DBDDFB02266AF2700F929B3 /* SPTLoginSwiftAppUITests */,
+				6DBDDF8F2266AF2400F929B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DBDDF8F2266AF2400F929B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DBDDF8E2266AF2400F929B3 /* SPTLoginSwiftApp.app */,
+				6DBDDFA22266AF2700F929B3 /* SPTLoginSwiftAppTests.xctest */,
+				6DBDDFAD2266AF2700F929B3 /* SPTLoginSwiftAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DBDDF902266AF2400F929B3 /* SPTLoginSwiftApp */ = {
+			isa = PBXGroup;
+			children = (
+				6DBDDF912266AF2400F929B3 /* AppDelegate.swift */,
+				6DBDDF932266AF2400F929B3 /* ViewController.swift */,
+				6DBDDF952266AF2400F929B3 /* Main.storyboard */,
+				6DBDDF982266AF2600F929B3 /* Assets.xcassets */,
+				6DBDDF9A2266AF2600F929B3 /* LaunchScreen.storyboard */,
+				6DBDDF9D2266AF2700F929B3 /* Info.plist */,
+				6DBDDFC22266FDA900F929B3 /* SPTLoginSwiftApp-Bridging-Header.h */,
+				6DBDDFBF2266B37A00F929B3 /* SpotifyiOS.framework */,
+			);
+			path = SPTLoginSwiftApp;
+			sourceTree = "<group>";
+		};
+		6DBDDFA52266AF2700F929B3 /* SPTLoginSwiftAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DBDDFA62266AF2700F929B3 /* SPTLoginSwiftAppTests.swift */,
+				6DBDDFA82266AF2700F929B3 /* Info.plist */,
+			);
+			path = SPTLoginSwiftAppTests;
+			sourceTree = "<group>";
+		};
+		6DBDDFB02266AF2700F929B3 /* SPTLoginSwiftAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DBDDFB12266AF2700F929B3 /* SPTLoginSwiftAppUITests.swift */,
+				6DBDDFB32266AF2700F929B3 /* Info.plist */,
+			);
+			path = SPTLoginSwiftAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DBDDF8D2266AF2400F929B3 /* SPTLoginSwiftApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DBDDFB62266AF2700F929B3 /* Build configuration list for PBXNativeTarget "SPTLoginSwiftApp" */;
+			buildPhases = (
+				6DBDDF8A2266AF2400F929B3 /* Sources */,
+				6DBDDF8B2266AF2400F929B3 /* Frameworks */,
+				6DBDDF8C2266AF2400F929B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPTLoginSwiftApp;
+			productName = SPTLoginSwiftApp;
+			productReference = 6DBDDF8E2266AF2400F929B3 /* SPTLoginSwiftApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DBDDFA12266AF2700F929B3 /* SPTLoginSwiftAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DBDDFB92266AF2700F929B3 /* Build configuration list for PBXNativeTarget "SPTLoginSwiftAppTests" */;
+			buildPhases = (
+				6DBDDF9E2266AF2700F929B3 /* Sources */,
+				6DBDDF9F2266AF2700F929B3 /* Frameworks */,
+				6DBDDFA02266AF2700F929B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DBDDFA42266AF2700F929B3 /* PBXTargetDependency */,
+			);
+			name = SPTLoginSwiftAppTests;
+			productName = SPTLoginSwiftAppTests;
+			productReference = 6DBDDFA22266AF2700F929B3 /* SPTLoginSwiftAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DBDDFAC2266AF2700F929B3 /* SPTLoginSwiftAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DBDDFBC2266AF2700F929B3 /* Build configuration list for PBXNativeTarget "SPTLoginSwiftAppUITests" */;
+			buildPhases = (
+				6DBDDFA92266AF2700F929B3 /* Sources */,
+				6DBDDFAA2266AF2700F929B3 /* Frameworks */,
+				6DBDDFAB2266AF2700F929B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DBDDFAF2266AF2700F929B3 /* PBXTargetDependency */,
+			);
+			name = SPTLoginSwiftAppUITests;
+			productName = SPTLoginSwiftAppUITests;
+			productReference = 6DBDDFAD2266AF2700F929B3 /* SPTLoginSwiftAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DBDDF862266AF2400F929B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Vihas Gowreddy";
+				TargetAttributes = {
+					6DBDDF8D2266AF2400F929B3 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					6DBDDFA12266AF2700F929B3 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 6DBDDF8D2266AF2400F929B3;
+					};
+					6DBDDFAC2266AF2700F929B3 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 6DBDDF8D2266AF2400F929B3;
+					};
+				};
+			};
+			buildConfigurationList = 6DBDDF892266AF2400F929B3 /* Build configuration list for PBXProject "SPTLoginSwiftApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DBDDF852266AF2400F929B3;
+			productRefGroup = 6DBDDF8F2266AF2400F929B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DBDDF8D2266AF2400F929B3 /* SPTLoginSwiftApp */,
+				6DBDDFA12266AF2700F929B3 /* SPTLoginSwiftAppTests */,
+				6DBDDFAC2266AF2700F929B3 /* SPTLoginSwiftAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DBDDF8C2266AF2400F929B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBDDF9C2266AF2600F929B3 /* LaunchScreen.storyboard in Resources */,
+				6DBDDF992266AF2600F929B3 /* Assets.xcassets in Resources */,
+				6DBDDF972266AF2400F929B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBDDFA02266AF2700F929B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBDDFAB2266AF2700F929B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DBDDF8A2266AF2400F929B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBDDF942266AF2400F929B3 /* ViewController.swift in Sources */,
+				6DBDDF922266AF2400F929B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBDDF9E2266AF2700F929B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBDDFA72266AF2700F929B3 /* SPTLoginSwiftAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DBDDFA92266AF2700F929B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBDDFB22266AF2700F929B3 /* SPTLoginSwiftAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DBDDFA42266AF2700F929B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DBDDF8D2266AF2400F929B3 /* SPTLoginSwiftApp */;
+			targetProxy = 6DBDDFA32266AF2700F929B3 /* PBXContainerItemProxy */;
+		};
+		6DBDDFAF2266AF2700F929B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DBDDF8D2266AF2400F929B3 /* SPTLoginSwiftApp */;
+			targetProxy = 6DBDDFAE2266AF2700F929B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DBDDF952266AF2400F929B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DBDDF962266AF2400F929B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DBDDF9A2266AF2600F929B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DBDDF9B2266AF2600F929B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DBDDFB42266AF2700F929B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DBDDFB52266AF2700F929B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DBDDFB72266AF2700F929B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BA46T7YUH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SPTLoginSwiftApp",
+				);
+				INFOPLIST_FILE = SPTLoginSwiftApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acm.iOS-SDK-Quick-Start";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SPTLoginSwiftApp/SPTLoginSwiftApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DBDDFB82266AF2700F929B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BA46T7YUH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SPTLoginSwiftApp",
+				);
+				INFOPLIST_FILE = SPTLoginSwiftApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.acm.iOS-SDK-Quick-Start";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SPTLoginSwiftApp/SPTLoginSwiftApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6DBDDFBA2266AF2700F929B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BA46T7YUH;
+				INFOPLIST_FILE = SPTLoginSwiftAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acm.SPTLoginSwiftAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPTLoginSwiftApp.app/SPTLoginSwiftApp";
+			};
+			name = Debug;
+		};
+		6DBDDFBB2266AF2700F929B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BA46T7YUH;
+				INFOPLIST_FILE = SPTLoginSwiftAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acm.SPTLoginSwiftAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPTLoginSwiftApp.app/SPTLoginSwiftApp";
+			};
+			name = Release;
+		};
+		6DBDDFBD2266AF2700F929B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BA46T7YUH;
+				INFOPLIST_FILE = SPTLoginSwiftAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acm.SPTLoginSwiftAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SPTLoginSwiftApp;
+			};
+			name = Debug;
+		};
+		6DBDDFBE2266AF2700F929B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BA46T7YUH;
+				INFOPLIST_FILE = SPTLoginSwiftAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acm.SPTLoginSwiftAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SPTLoginSwiftApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DBDDF892266AF2400F929B3 /* Build configuration list for PBXProject "SPTLoginSwiftApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBDDFB42266AF2700F929B3 /* Debug */,
+				6DBDDFB52266AF2700F929B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DBDDFB62266AF2700F929B3 /* Build configuration list for PBXNativeTarget "SPTLoginSwiftApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBDDFB72266AF2700F929B3 /* Debug */,
+				6DBDDFB82266AF2700F929B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DBDDFB92266AF2700F929B3 /* Build configuration list for PBXNativeTarget "SPTLoginSwiftAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBDDFBA2266AF2700F929B3 /* Debug */,
+				6DBDDFBB2266AF2700F929B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DBDDFBC2266AF2700F929B3 /* Build configuration list for PBXNativeTarget "SPTLoginSwiftAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBDDFBD2266AF2700F929B3 /* Debug */,
+				6DBDDFBE2266AF2700F929B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DBDDF862266AF2400F929B3 /* Project object */;
+}
